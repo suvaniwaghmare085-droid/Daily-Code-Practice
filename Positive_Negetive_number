@@ -1,0 +1,31 @@
+//Check if a Number is Positive or Negative in C
+//Given an integer input, the objective is check whether the given integer is Positive or Negative
+
+
+//C Code:
+#include <stdio.h>
+int main()
+{
+    int num = 23;
+      
+    //Conditions to check if the number is negative/positive or zero
+    if (num > 0)
+         printf("The number is positive");
+    else if (num < 0)
+        printf("The number is negative");
+    else
+        printf("Zero");
+    
+    return 0;
+}
+
+
+// Python code:
+
+num = 15
+if num > 0:
+    print('Positive')
+elif num < 0:
+    print('Negative')
+else:
+    print('Zero')
